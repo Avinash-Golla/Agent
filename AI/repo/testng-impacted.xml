@@ -1,0 +1,7 @@
+<suite name="RegressionSuite">
+  <test name="ImpactedTests">
+  <classes>
+   <class name="com.yourorg.tests.LoginTest"/>
+   </classes>
+  </test>
+</suite>
