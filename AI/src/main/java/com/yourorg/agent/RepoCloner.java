@@ -9,7 +9,8 @@ import java.io.IOException;
 public class RepoCloner {
 
 	public static void cloneOrUpdateRepo(String repoUrl, String localPath) {
-		File repoDir = new File(localPath);
+		// 👇 This becomes ./repo/automation-tests
+		File repoDir = new File(localPath, "automation-tests");
 
 		try {
 			if (repoDir.exists() && new File(repoDir, ".git").exists()) {
