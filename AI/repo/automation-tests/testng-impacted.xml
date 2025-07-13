@@ -1,0 +1,28 @@
+<suite name="RegressionSuite">
+  <test name="ImpactedTests">
+    <classes>
+      <class name="com.yourorg.SignIssueTest">
+        <methods>
+          <include name="TC005"/>
+        </methods>
+      </class>
+      <class name="com.yourorg.PaymentTest">
+        <methods>
+          <include name="TC004"/>
+          <include name="TC003"/>
+        </methods>
+      </class>
+      <class name="com.yourorg.SignAndPaymentTest">
+        <methods>
+          <include name="TC006"/>
+        </methods>
+      </class>
+      <class name="com.yourorg.LoginTest">
+        <methods>
+          <include name="TC001"/>
+          <include name="TC002"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

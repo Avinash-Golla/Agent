@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-13T22:07:41 IST" name="Surefire suite" finished-at="2025-07-13T22:07:41 IST" duration-ms="74">
+    <groups>
+    </groups>
+    <test started-at="2025-07-13T22:07:41 IST" name="Surefire test" finished-at="2025-07-13T22:07:41 IST" duration-ms="74">
+      <class name="com.yourorg.LoginTest">
+        <test-method signature="loginWithSpecialChars()[pri:0, instance:com.yourorg.LoginTest@6a01e23]" started-at="2025-07-13T22:07:41 IST" name="loginWithSpecialChars" finished-at="2025-07-13T22:07:41 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithSpecialChars -->
+      </class> <!-- com.yourorg.LoginTest -->
+      <class name="com.yourorg.SignAndPaymentTest">
+        <test-method signature="SignAndPaymentIssue()[pri:0, instance:com.yourorg.SignAndPaymentTest@7d3a22a9]" started-at="2025-07-13T22:07:41 IST" name="SignAndPaymentIssue" finished-at="2025-07-13T22:07:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignAndPaymentIssue -->
+      </class> <!-- com.yourorg.SignAndPaymentTest -->
+      <class name="com.yourorg.SignTest">
+        <test-method signature="SignIssue()[pri:0, instance:com.yourorg.SignTest@1d082e88]" started-at="2025-07-13T22:07:41 IST" name="SignIssue" finished-at="2025-07-13T22:07:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIssue -->
+      </class> <!-- com.yourorg.SignTest -->
+      <class name="com.yourorg.PaymentTest">
+        <test-method signature="paymentWithSpecialChars()[pri:0, instance:com.yourorg.PaymentTest@1e730495]" started-at="2025-07-13T22:07:41 IST" name="paymentWithSpecialChars" finished-at="2025-07-13T22:07:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentWithSpecialChars -->
+      </class> <!-- com.yourorg.PaymentTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
